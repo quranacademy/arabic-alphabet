@@ -1,1 +1,1 @@
-export { LessonsList as default } from "~/views/LessonsList";
+export { LessonsList as default } from "~/views/LessonsBlockList/LessonsList";
