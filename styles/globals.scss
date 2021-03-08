@@ -53,6 +53,35 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: Amiri;
+    src:
+        url(../assets/fonts/Amiri/Amiri-Bold.woff) format("woff"),
+        url(../assets/fonts/Amiri/Amiri-Bold.ttf) format("ttf")
+    ;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Smeshariki;
+    src:
+        url(../assets/fonts/Smeshariki/Smeshariki.woff) format("woff"),
+        url(../assets/fonts/Smeshariki/Smeshariki.ttf) format("ttf")
+    ;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Arabic;
+    src:
+        url(../assets/fonts/Arabic/arabic.woff) format("woff"),
+        url(../assets/fonts/Arabic/arabic.ttf) format("ttf"),
+        url(../assets/fonts/Arabic/arabic.eot) format("eot")
+    ;
+    font-weight: 400;
+}
+
+
 *,
 *:before,
 *:after {
