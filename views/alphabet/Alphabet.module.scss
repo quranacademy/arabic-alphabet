@@ -58,23 +58,6 @@ $strokeColor: #6d6d6d;
         letter-spacing: 0.05em;
         color: #fff;
         @include textStroke (1, $strokeColor);
-        // text-shadow:
-        // 0   -1px 0   $strokeColor,
-        // 0   -1px 0   $strokeColor,
-        // 0    1px 0   $strokeColor,
-        // 0    1px 0   $strokeColor,
-        // -1px 0   0   $strokeColor,
-        // 1px 0   0   $strokeColor,
-        // -1px  0   0   $strokeColor,
-        // 1px  0   0   $strokeColor,
-        // -1px -1px 0   $strokeColor,
-        // 1px -1px 0   $strokeColor,
-        // -1px  1px 0   $strokeColor,
-        // 1px  1px 0   $strokeColor,
-        // -1px -1px 0   $strokeColor,
-        // 1px -1px 0   $strokeColor,
-        // -1px  1px 0   $strokeColor,
-        // 1px  1px 0   $strokeColor;
     }
     .letterName {
         color: #77b5fe;
