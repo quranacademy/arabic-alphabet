@@ -47,7 +47,11 @@ $strokeColor: #6d6d6d;
     border-radius: 50% 50%;
     box-sizing: border-box;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.12);
-
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #e6b100;
+    }
     .letterArabic {
         align-items: center;
         text-align: center;
