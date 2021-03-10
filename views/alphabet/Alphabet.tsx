@@ -10,7 +10,7 @@ const Alphabet = () => {
             <div className={ styles.header }>
                 <h1 className={ styles.title }>Арабский алфавит</h1>
             </div>
-            <div className={ styles.content } dir="ltr">
+            <div className={ styles.content } dir="rtl">
                 {
                     letters.map(letter => (
                     <button className={styles.letter}>
