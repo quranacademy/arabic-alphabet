@@ -1,0 +1,22 @@
+.goBack {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+
+.goBackIcon {
+    transform: rotate(180deg);
+}
+
+.goBackTitle {
+    font-family: Ethna, sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+
+    margin-left: 22px;
+
+    color: #77b5fe;
+}

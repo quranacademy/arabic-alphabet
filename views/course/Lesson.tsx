@@ -1,38 +1,41 @@
-import styles from "./LessonsList.module.scss";
+import Link from 'next/link'
 
-interface LessonsListProps {
+import styles from "./Lesson.module.scss";
+
+interface ILesson {
     orderNumber: number;
     title: string;
     subTitle: string;
 }
 
-const LessonsList: React.FC<LessonsListProps> = ({
+const Lesson: React.FC<ILesson> = ({
     orderNumber,
     title,
     subTitle,
 }) => {
     return (
-        <div className={styles.listBlockWrapper}>
-            <div className={styles.listBlock}>
-                <div className={styles.listContent}>
-                    <div className={styles.listLeftContent}>
-                        <div className={styles.listOrderNumber}>
+        <Link href='#'>
+        <div className={styles.BlockWrapper}>
+            <div className={styles.Block}>
+                <div className={styles.Content}>
+                    <div className={styles.LeftContent}>
+                        <div className={styles.OrderNumberWrp}>
                             <div className={styles.orderNumber}>
                                 {orderNumber}
                             </div>
                         </div>
-                        <div className={styles.listDescription}>
-                            <div className={styles.listTitle}>{title}</div>
-                            <div className={styles.listSubTitle}>
+                        <div className={styles.Description}>
+                            <div className={styles.Title}>{title}</div>
+                            <div className={styles.SubTitle}>
                                 {subTitle}
                             </div>
                         </div>
                     </div>
 
-                    <span className={styles.listRightIcon}>
+                    <span className={styles.RightIcon}>
                         <svg
-                            width="17"
-                            height="29"
+                            width="13"
+                            height="25"
                             viewBox="0 0 17 29"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +52,8 @@ const LessonsList: React.FC<LessonsListProps> = ({
                 </div>
             </div>
         </div>
+        </Link>
     );
 };
 
-export { LessonsList };
+export { Lesson };
