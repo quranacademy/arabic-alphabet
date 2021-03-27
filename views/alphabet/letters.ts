@@ -1,114 +1,142 @@
 export const letters = [
     {
         arabic:'ا',
-        name: 'алиф'
+        name: 'алиф',
+        file: 'alif.mp3'
     },
     {
         arabic:'ب',
-        name: 'ба'
+        name: 'ба',
+        file: 'ba.mp3'
     },
     {
         arabic:'ت',
-        name: 'та'
+        name: 'та',
+        file: 'ta.mp3'
     },
     {
         arabic:'ث',
-        name: 'са'
+        name: 'са',
+        file: 'tha.mp3'
     },
     {
         arabic:'ج',
-        name: 'джим'
+        name: 'джим',
+        file: 'jim.mp3'
     },
     {
         arabic:'ح',
-        name: 'х1а'
+        name: 'х1а',
+        file: 'kha.mp3'
     },
     {
         arabic:'خ',
-        name: 'ха'
+        name: 'ха',
+        file: 'kho.mp3'
     },
     {
         arabic:'د',
-        name: 'даль'
+        name: 'даль',
+        file: 'dal.mp3'
     },
     {
         arabic:'ذ',
-        name: 'заль'
+        name: 'заль',
+        file: 'thal.mp3'
     },
     {
         arabic:'ر',
-        name: 'ра'
+        name: 'ра',
+        file: 'ra.mp3'
     },
     {
         arabic:'ز',
-        name: 'зайн'
+        name: 'зайн',
+        file: 'zay.mp3'
     },
     {
         arabic:'س',
-        name: 'син'
+        name: 'син',
+        file: 'sin.mp3'
     },
     {
         arabic:'ش',
-        name: 'шин'
+        name: 'шин',
+        file: 'shin.mp3'
     },
     {
         arabic:'ص',
-        name: 'сад'
+        name: 'сад',
+        file: 'sad.mp3'
     },
     {
         arabic:'ض',
-        name: 'дад'
+        name: 'дад',
+        file: 'dad.mp3'
     },
     {
         arabic:'ط',
-        name: 'та'
+        name: 'та',
+        file: 'to.mp3'
     },
     {
         arabic:'ظ',
-        name: 'за'
+        name: 'за',
+        file: 'tho.mp3'
     },
     {
         arabic:'ع',
-        name: 'айн'
+        name: 'айн',
+        file: 'ayn.mp3'
     },
     {
         arabic:'غ',
-        name: 'гайн'
+        name: 'гайн',
+        file: 'ghayn.mp3'
     },
     {
         arabic:'ف',
-        name: 'фа'
+        name: 'фа',
+        file: 'fa.mp3'
     },
     {
         arabic:'ق',
-        name: 'къаф'
+        name: 'къаф',
+        file: 'qaf.mp3'
     },
     {
         arabic:'ك',
-        name: 'кяф'
+        name: 'кяф',
+        file: 'kaf.mp3'
     },
     {
         arabic:'ل',
-        name: 'лям'
+        name: 'лям',
+        file: 'lam.mp3'
     },
     {
         arabic:'م',
-        name: 'мим'
+        name: 'мим',
+        file: 'mim.mp3'
     },
     {
         arabic:'ن',
-        name: 'нун'
+        name: 'нун',
+        file: 'nun.mp3'
     },
     {
         arabic:'ه',
-        name: 'hа'
+        name: 'hа',
+        file: 'ha.mp3'
     },
     {
         arabic:'و',
-        name: 'вав'
+        name: 'вав',
+        file: 'waw.mp3'
     },
     {
         arabic:'ي',
-        name: 'йа'
+        name: 'йа',
+        file: 'ya.mp3'
     },
 ];
