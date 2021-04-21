@@ -1,0 +1,23 @@
+.letter{
+    border: 1px solid #77B5FE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 8px 12px 8px 12px;
+}
+
+.arabic{
+    font-family: Traditional Arabic;
+    font-size: 72px;
+}
+
+.transliteration{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}

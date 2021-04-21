@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Ethna;
+    src:
+        url(../assets/fonts/Ethna/Ethna-Bold.woff) format("woff"),
+        url(../assets/fonts/Ethna/Ethna-Bold.ttf) format("ttf"),
+        url(../assets/fonts/Ethna/Ethna-Bold.otf) format("otf"),
+        url(../assets/fonts/Ethna/Ethna-Bold.svg) format("svg")
+;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: PTSerif;
+    src:
+        url(../assets/fonts/PTSerif/PTSerif-Regular.woff) format("woff"),
+        url(../assets/fonts/PTSerif/PTSerif-Regular.ttf) format("ttf"),
+        url(../assets/fonts/PTSerif/PTSerif-Regular.otf) format("otf")
+;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PTSerif;
+    src:
+        url(../assets/fonts/PTSerif/PTSerif-Bold.woff) format("woff"),
+        url(../assets/fonts/PTSerif/PTSerif-Bold.ttf) format("ttf"),
+        url(../assets/fonts/PTSerif/PTSerif-Bold.otf) format("otf")
+;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src:
+        url(../assets/fonts/Roboto/Roboto-Regular.woff) format("woff"),
+        url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("ttf"),
+        url(../assets/fonts/Roboto/Roboto-Regular.otf) format("otf")
+;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src:
+        url(../assets/fonts/Roboto/Roboto-Bold.woff) format("woff"),
+        url(../assets/fonts/Roboto/Roboto-Bold.ttf) format("ttf"),
+        url(../assets/fonts/Roboto/Roboto-Bold.otf) format("otf")
+;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Smeshariki;
+    src:
+        url(../assets/fonts/Smeshariki/Smeshariki.woff) format("woff"),
+        url(../assets/fonts/Smeshariki/Smeshariki.ttf) format("ttf")
+;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Arabic;
+    src:
+        url(../assets/fonts/Arabic/traditional_arabic.woff) format("woff"),
+        url(../assets/fonts/Arabic/traditional_arabic.ttf) format("ttf"),
+;
+    font-weight: 400;
+}

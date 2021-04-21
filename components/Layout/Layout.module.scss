@@ -1,7 +1,7 @@
 .root {
     display: flex;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sidebar {
@@ -9,7 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 490px;
+    position: fixed;
+    width: var(--sidebar-width);
     height: 100vh;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 
@@ -79,4 +80,5 @@
     align-items: center;
     width: 100%;
     padding: 0 94px;
+    margin-left: var(--sidebar-width);
 }
